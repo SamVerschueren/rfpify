@@ -1,0 +1,40 @@
+{
+  "name": "rfpify",
+  "version": "0.0.0",
+  "description": "Promisify a result-first callback-style function.",
+  "license": "MIT",
+  "repository": "SamVerschueren/rfpify",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "promise",
+    "promises",
+    "promisify",
+    "callback",
+    "then",
+    "async"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "pinkie-promise": "^1.0.0",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
