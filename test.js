@@ -54,7 +54,7 @@ test('wrap core method', async t => {
 });
 
 test('module support', async t => {
-	const result = await fn.all(fs, { multiArgs: true }).readFile('package.json');
+	const result = await fn.all(fs, {multiArgs: true}).readFile('package.json');
 
 	t.is(result[0], null);
 	t.is(JSON.parse(result[1]).name, 'rfpify');
