@@ -1,6 +1,6 @@
 {
   "name": "rfpify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promisify a result-first callback-style function.",
   "license": "MIT",
   "repository": "SamVerschueren/rfpify",
