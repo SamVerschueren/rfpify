@@ -1,9 +1,13 @@
-# rfpify [![Build Status](https://travis-ci.org/SamVerschueren/rfpify.svg?branch=master)](https://travis-ci.org/SamVerschueren/rfpify)
+# rfpify
 
 > Promisify a result-first callback-style function.
 
-*Some APIs do not use an error-first callback approach. This promisify library promisifies those callbacks. If you are looking for a library that promisifies
-normal error-first callback functions, take a look at [pify](https://github.com/sindresorhus/pify)*
+---
+
+<p align="center"><b>Deprecated</b> in favour of <a href="https://github.com/sindresorhus/pify">pify</a> with the <a href="https://github.com/sindresorhus/pify#errorfirst">errorFirst</a> option.</p>
+
+---
+
 
 ## Install
 
